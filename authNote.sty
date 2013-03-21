@@ -14,8 +14,6 @@
 % options and booleans for them
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\reversemarginpar % ??
-
 %\smartqed	% makes \qed print at the rightmargin
 
 \newboolean{shownotes}
@@ -24,6 +22,7 @@
 \DeclareOption{shownotes}{\setboolean{shownotes}{true}}
 \DeclareOption{hide}{\setboolean{shownotes}{false}}
 \DeclareOption{show}{\setboolean{shownotes}{true}}
+\DeclareOption{reverse}{\reversemarginpar}
 
 \newboolean{showhmm}
 \setboolean{showhmm}{true}

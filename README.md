@@ -16,6 +16,7 @@ Here is a brief description of what these styles do.
  * probstat.sty -- some macros for probability and statistics
  * sfsect.sty -- typeset section headers in sf font
  
- The bin directory contains some utilities
+The bin directory contains some utilities
+
   * knitr -- commandline Rnw -> PDF with multiple runs of latex and intermediaries as needed (written in bash)
   

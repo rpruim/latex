@@ -15,3 +15,7 @@ Here is a brief description of what these styles do.
  * problems.sty -- a system for creating exercises and solutions
  * probstat.sty -- some macros for probability and statistics
  * sfsect.sty -- typeset section headers in sf font
+ 
+ The bin directory contains some utilities
+  * knitr -- commandline Rnw -> PDF with multiple runs of latex and intermediaries as needed (written in bash)
+  

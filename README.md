@@ -9,8 +9,9 @@ depend on availability of my time and indication that anyone else is actually us
 
 Here is a brief description of what these styles do.
 
-authNote.sty
-language.sty
-problems.sty
-probstat.sty
-sfsect.sty
+ * authNote.sty -- provides a system for creating marginal indicators of end notes that can
+ be used during the editing process and turned off before going to press
+ * language.sty -- some syntax highlighting for languages like R
+ * problems.sty -- a system for creating exercises and solutions
+ * probstat.sty -- some macros for probability and statistics
+ * sfsect.sty -- typeset section headers in sf font
